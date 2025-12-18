@@ -2,3 +2,4 @@
 # Claude Code internal config
 .claude.json
 .claude/
+CLAUDE.md
