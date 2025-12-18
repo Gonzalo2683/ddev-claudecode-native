@@ -1,0 +1,14 @@
+#!/bin/bash
+#ddev-generated
+
+## Description: Claude Code AI Assistant
+## Usage: claude [args]
+## Example: ddev claude
+## Example: ddev claude --help
+
+set -e
+
+# Ensure PATH includes native installation location
+export PATH="$HOME/.local/bin:$PATH"
+
+claude "$@"
