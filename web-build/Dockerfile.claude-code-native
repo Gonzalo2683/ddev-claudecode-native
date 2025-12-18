@@ -1,7 +1,7 @@
 #ddev-generated
 
 # Claude Code version: stable, latest, or specific version (e.g., 1.0.58)
-ARG CLAUDE_VERSION=stable
+ARG CLAUDE_VERSION=latest
 
 # Install Claude Code natively (no npm dependency)
 # Note: Installs as root, then copies binary (not symlink) to /usr/local/bin for all users
