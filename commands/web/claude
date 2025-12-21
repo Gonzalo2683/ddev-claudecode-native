@@ -8,4 +8,7 @@
 
 set -e
 
+# Add ~/.local/bin to PATH to silence Claude Code warning
+export PATH="$HOME/.local/bin:$PATH"
+
 claude "$@"
